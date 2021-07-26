@@ -20,4 +20,4 @@ server.get('/api/articles/:id', (req,res) => {
     console.log(req.params);
 });
 
-server.listen(PORT, console.log(`server is working and listening on PORT ${PORT}`));
+server.listen(PORT, console.log(`server a is working and listening on PORT ${PORT}`));
